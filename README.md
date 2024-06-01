@@ -71,3 +71,8 @@ To change the criteria for bucket name generation, modify the `generate_bucket_n
 ### Database Schema
 
 Document structure in MongoDB includes `name`, `status_code`, and MongoDB's `_id`.
+
+### Demo Video
+
+[![To see how you can run and play with it](http://img.youtube.com/vi/lvtOfpsWlZQ/0.jpg)](https://youtu.be/lvtOfpsWlZQ)
+

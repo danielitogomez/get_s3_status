@@ -40,9 +40,11 @@ This application checks the status of S3 buckets by generating potential bucket 
    git clone <repository-url>
    cd <repository-directory>
     ```
+
 ## Build and Run with Docker Compose:
-    ```
-    docker-compose up --build
+1. **Run docker compose command**:
+   ```bash
+   docker-compose up --build
     ```
 
 ## Access the Application

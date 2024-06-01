@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Help</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Help - How to Use the S3 Bucket Status Checker</h1>
+    <p>To use this tool, simply access the following endpoints:</p>
+    <ul>
+        <li><strong>/check/buckets/v1</strong> - Returns the status of the S3 buckets.</li>
+    </ul>
+    <p>Example: Navigate to /check/buckets/v1 to see the status codes of various S3 bucket names generated based on a pattern in console and it'll instert into MongoDB.</p>
+    <ul>
+        <li><strong>/check/buckets/db/v1</strong> - Returns the status of the S3 buckets from the MongoDB.</li>
+    </ul>
+    <p>Example: Navigate to /check/buckets/db/v1 to see the status codes of various S3 bucket names from the MongoDB.</p>
+</body>
+</html>

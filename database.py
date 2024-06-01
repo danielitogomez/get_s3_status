@@ -5,11 +5,10 @@ db = client.bucket_status_db
 collection = db.results
 
 def insert_result(result):
-    # Check if a document with the same name and status_code already exists
     if collection.count_documents({'name': result['name'], 'status_code': result['status_code']}) == 0:
         try:
             insert_result = collection.insert_one(result)
-            return str(insert_result.inserted_id)  # Convert ObjectId to string
+            return str(insert_result.inserted_id)
         except Exception as e:
             print(f"An error occurred: {e}")
             return None

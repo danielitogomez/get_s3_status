@@ -41,8 +41,7 @@ This application checks the status of S3 buckets by generating potential bucket 
    cd <repository-directory>
     ```
 ## Build and Run with Docker Compose:
-
-    ```bash
+    ```
     docker-compose up --build
     ```
 
